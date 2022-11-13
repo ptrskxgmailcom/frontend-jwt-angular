@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FrontendJwtComponent } from './frontend-jwt/frontend-jwt.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FrontendJwtComponent
   ],
   imports: [
     BrowserModule,
